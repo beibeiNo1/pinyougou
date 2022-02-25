@@ -1,0 +1,155 @@
+.header {
+    border-bottom: 2px solid #b1191a;
+}
+
+.register {
+    border: 1px solid #ddd;
+    height: 620px;
+    margin-top: 20px;
+}
+
+.reg_hd {
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.reg_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.reg_hd h4 {
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.reg_hd h4 a {
+    color: #c81623;
+}
+
+.reg_bd {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.reg_bd ul {
+    margin-top: 55px;
+}
+
+.reg_bd li {
+    margin-bottom: 20px;
+}
+
+.reg_bd label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+
+/* .error,
+.success {
+    display: inline-block;
+    padding-left: 25px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.error {
+    color: #df3033;
+    background: url('../images/error.png') no-repeat left center;
+}
+
+.success {
+    color: #40b83f;
+    background: url('../images/success.png') no-repeat left center;
+}
+ */
+
+.error {
+    color: #df3033;
+    margin-left: 10px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+
+.success_icon {
+    background-image: url(../images/success.png);
+}
+
+.reg_bd input {
+    width: 238px;
+    height: 35px;
+    border: 1px solid #ddd;
+    text-indent: 10px;
+}
+
+.safe {
+    margin-left: 180px;
+}
+
+.safe em {
+    display: inline-block;
+    width: 35px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree input {
+    margin-left: 100px;
+    width: 15px;
+    height: 15px;
+}
+
+.agree a {
+    color: #1ba1e6;
+    margin-left: 5px;
+}
+
+.reg_bd .btn {
+    width: 200px;
+    height: 35px;
+    margin: 20px 0 0 110px;
+    border: none;
+    line-height: 35px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}

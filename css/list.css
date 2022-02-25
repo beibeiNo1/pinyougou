@@ -1,0 +1,162 @@
+.logo {
+    position: relative;
+}
+
+.sk {
+    position: absolute;
+    top: 7px;
+    left: 93px;
+    padding-left: 10px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list,
+.sk_con,
+.sk_list li,
+.sk_con li {
+    float: left;
+}
+
+.sk_list li a {
+    display: block;
+    margin: 10px 30px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.sk_con li a {
+    display: block;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+.more::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+}
+
+.sk_bd {
+    margin-top: 25px;
+}
+
+.sk_bd ul li {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.pro_info {
+    width: 288px;
+    height: 460px;
+    border: 2px solid transparent;
+}
+
+.pro_info:hover {
+    border-color: #e12228;
+}
+
+.pro_info>p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pro_descrip {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.pro_descrip a {
+    font-family: '宋体';
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pro_descrip p {
+    color: #a4a4a4;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.pro_descrip p span {
+    color: #e60012;
+    margin-right: 10px;
+}
+
+.pro_descrip p span em {
+    font-size: 22px;
+}
+
+.bar em {
+    color: #e12228;
+}
+
+.bar_box {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e12228;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+
+.bar_con {
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+}
+
+.pro_info>a {
+    text-align: center;
+    display: block;
+    width: 286px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+    font-family: '宋体';
+    margin-top: 16px;
+}
+
+.sk_container {
+    clear: both;
+    margin-bottom: 300px;
+}
+
+
+/* 返回页面头部 top小模块  */
+
+.sk_bd {
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    bottom: 0;
+    right: -78px;
+}
+
+.top_hd,
+.top_bd {
+    width: 68px;
+    height: 68px;
+    background-color: #b1191a;
+}
+
+.top_hd {
+    margin-bottom: 1px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.top_hd::before {
+    display: block;
+    content: "\e91e";
+    font-family: 'icomoon';
+    transform: rotate(180deg);
+}
+
+.top_bd {
+    background: #b1191a url('../images/top_iphone.jpg') no-repeat center center;
+}
